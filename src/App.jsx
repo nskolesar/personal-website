@@ -11,7 +11,7 @@ const App = () => {
             <Navbar />
             <br></br>
             <header
-                id="#about"
+                id="about"
                 className="container w-screen flex flex-row items-center py-12 px-8 max-w-50xl mx-screen"
             >
                 <img
@@ -53,7 +53,7 @@ const App = () => {
 
                         <div className="border-l-2 border-white-600 h-full mx-2"></div>
 
-                        <div className="p-4 max-w-3/4">
+                        <div className="p-4 max-w-full sm:max-w-3/4 md:max-w-3/4 lg:max-w-3/4 xl:max-w-3/4">
                             <p>
                                 I earned a Bachelor of Science in Informatics
                                 from Indiana University, where I developed a
@@ -186,7 +186,7 @@ const App = () => {
                                 <p className="text-gray-400">
                                     Carbon Footprint Calculator
                                 </p>
-                                <p className="mt-2 text-gray-300 max-w-md">
+                                <p className="mt-2 text-gray-300 max-w-full sm:max-w-3/4 md:max-w-3/4 lg:max-w-3/4 xl:max-w-3/4">
                                     Collaborated on a team to develop a
                                     web-based Carbon Footprint Calculator,
                                     utilizing SQL and PHP for secure backend
