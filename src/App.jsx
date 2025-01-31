@@ -100,6 +100,7 @@ const App = () => {
                             <h3 className="text-lg font-bold text-gray-300">
                                 Business Reporting Analyst
                             </h3>
+                            <p className="text-gray-400">Spot, Inc.</p>
                             <p className="text-gray-400">June 2024 - Present</p>
                             <br></br>
                             <p className="text-md text-gray-400">
@@ -123,6 +124,9 @@ const App = () => {
                             <h3 className="text-lg font-bold text-gray-300">
                                 SQL Developer Intern
                             </h3>
+                            <p className="text-gray-400">
+                                Renaissance Life Insurance Company of America
+                            </p>
                             <p className="text-gray-400">Summer 2023</p>
                             <br></br>
                             <p className="text-md text-gray-400">
@@ -146,6 +150,9 @@ const App = () => {
                             <h3 className="text-lg font-bold text-gray-300">
                                 Data Analytics and Business Intelligence Intern
                             </h3>
+                            <p className="text-gray-400">
+                                Renaissance Life Insurance Company of America
+                            </p>
                             <p className="text-gray-400">
                                 Summer 2021, Summer 2022
                             </p>
