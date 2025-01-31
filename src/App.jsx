@@ -164,7 +164,6 @@ const App = () => {
                     </motion.div>
                 </Section>
 
-                {/* Work Experience Section */}
                 <Section id="project" title="Projects">
                     <motion.div
                         className="bg-gray-900 p-6 rounded-lg shadow-md flex items-center justify-center space-x-8"
@@ -173,7 +172,6 @@ const App = () => {
                         transition={{ duration: 0.8 }}
                         viewport={{ once: true }}
                     >
-                        {/* Left Side: Text Content */}
                         <div className="w-1/2">
                             <div className="bg-gray-800 p-4 rounded-lg">
                                 <h3 className="text-lg font-bold text-gray-300">
@@ -200,7 +198,6 @@ const App = () => {
                             </div>
                         </div>
 
-                        {/* Right Side: Image Placeholder */}
                         <div className="w-1/3 flex justify-center">
                             <img
                                 src={greenmachine}
