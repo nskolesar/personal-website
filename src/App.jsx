@@ -25,8 +25,7 @@ const App = () => {
                     </h2>
                     <br></br>I am a recent graduate from Indiana University with
                     a B.S. in Informatics and a minor in both Web Design and
-                    Human Centered Computing. graduate with a passion for web
-                    design and data analytics. I love building sleek,
+                    Human Centered Computing. I love building sleek,
                     user-friendly applications and solving complex data
                     problems.
                 </h2>
