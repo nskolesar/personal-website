@@ -209,4 +209,8 @@ const App = () => {
                 </Section>
                 <br></br>
             </main>
-        </
+        </div>
+    );
+};
+
+export default App;
