@@ -22,8 +22,4 @@ const Navbar = () => {
                     </a>
                 </div>
             </div>
-        </nav>
-    );
-};
-
-export default Navbar;
+        
