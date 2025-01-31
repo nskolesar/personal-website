@@ -2,6 +2,8 @@ import React from "react";
 import { motion } from "framer-motion";
 import image from "./img/nathankolesar.jpg";
 import greenmachine from "./img/greenmachine.jpg";
+import linkedin from "./img/LinkedIN.png";
+import github from "./img/Github.png";
 import Navbar from "./components/Nav.jsx";
 import Section from "./components/Section.jsx";
 
@@ -213,6 +215,27 @@ const App = () => {
                         </div>
                     </motion.div>
                 </Section>
+                <br></br>
+                <div className="flex space-x-4 justify-center items-center">
+                    <a
+                        href="https://www.linkedin.com/in/nathan-kolesar"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img
+                            src={linkedin}
+                            alt="LinkedIn"
+                            className="w-12 h-12"
+                        />
+                    </a>
+                    <a
+                        href="https://github.com/nskolesar"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                    >
+                        <img src={github} alt="GitHub" className="w-12 h-12" />
+                    </a>
+                </div>
                 <br></br>
             </main>
         </div>
